@@ -1,0 +1,100 @@
+body {
+    background-color: rgb(164, 255, 236);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-image: url("peakpx.jpg");
+    background-blend-mode: difference;
+}
+.heading {
+    font-family: 'Pacifico', cursive;
+    margin: 35px auto 20px;
+    color: black;
+}
+
+hr {
+	border-top: 2px solid black;
+	width: 40%;
+	margin-bottom: 55px;
+}
+h3 {
+    margin-top: 1em;
+    font-size: 51px;
+}
+.main {
+    width: 50vw;
+    margin: auto;
+    padding: 30px;
+    border-radius: 5px;
+    background-color: red;
+    color: rgb(0, 0, 0);
+}
+.btn-primary {
+    color: #fff;
+    background-color: #000000;
+    border-color: #007bff;
+}
+label {
+	font-size: 20px;
+}
+h2 {
+    color: rgb(255, 255, 255);
+}
+.btn {
+	width: 200px;
+}
+element.style {
+    color: rgb(0, 0, 0);
+}
+#finalAmount {
+	font-family: 'Lobster', cursive;
+	display: none;
+	margin: 50px auto;
+}
+
+#finalAmount h2 {
+	font-size: 50px;
+}
+center {
+    color: rgb(255, 255, 255);
+}
+
+.finalValue {
+	font-family: 'Amiri', serif;
+}
+
+@media (max-width: 768px) {
+	hr {
+		width: 60%;
+	}
+
+	.main {
+		width: 100%;
+	}
+}
+
+@media (max-width: 400px) {
+	.heading {
+		font-size: 60px;
+	}
+
+	hr {
+		width: 75%;
+	}
+
+	#finalAmount h2,
+	.finalValue {
+		font-size: 40px;
+	}
+}
+footer {
+    text-align: center;
+    background-color: red;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 34px;
+    font-family: emoji;
+    margin-top: 176px;
+}
